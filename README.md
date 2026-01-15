@@ -1,5 +1,5 @@
 Hướng dẫn chạy bài
-    git clone [link]
+    git clone -b ES6_JSX_FRAGMENT/demo --single-branch <URL_repository> 
     npm install
     npm start
 React Demo: ES6, JSX & Fragments
