@@ -1,0 +1,123 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.main-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 15px;
+}
+
+.section {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-left: 5px solid;
+}
+
+.section-es6 {
+  border-left-color: #3498db;
+}
+
+.section-jsx {
+  border-left-color: #2ecc71;
+}
+
+.section-fragments {
+  border-left-color: #e74c3c;
+}
+
+/* Fragment demo specific styles */
+.fragment-demo-text {
+  background: #fff3cd;
+  padding: 15px;
+  border-radius: 8px;
+  color: #856404;
+  margin-bottom: 20px;
+}
+
+.demo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.demo-table th {
+  background: #f8f9fa;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table-cell {
+  padding: 12px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.demo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  padding: 10px;
+  margin: 5px 0;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.summary-item {
+  padding: 15px;
+  margin: 10px 0;
+  background: #e8f4fd;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+}
+
+/* Existing styles kept */
+.content-box {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.content-item {
+  margin-bottom: 15px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.code-inline {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.demo-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.className-demo {
+  background: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+}
