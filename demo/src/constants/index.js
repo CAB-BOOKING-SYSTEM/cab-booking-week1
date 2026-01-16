@@ -18,3 +18,13 @@ export  const serviceData = [
     { title: 'Hỗ Trợ 24/7', desc: 'Liên hệ bất cứ lúc nào.', icon: '📞' },
     { title: 'Thanh Toán An Toàn', desc: 'Bảo mật cao với mã hóa.', icon: '💳' },
   ];
+
+
+export const nav = [
+  {id : "home" , href: "/" , title:"Trang Chủ"},
+  {id : "service" , href: "/services" , title:"Đặt xe"},
+  {id : "contact" , href: "/contact" , title:"Liên hệ "},
+
+
+
+]

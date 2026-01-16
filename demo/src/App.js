@@ -1,13 +1,13 @@
-import React from 'react';
 import './App.css';
 import { Tabs, Tab, Accordion, Container, Row, Col, Card } from 'react-bootstrap';
-import { faqData, serviceData, tabData } from './constants/nav';
-
+import { faqData, serviceData, tabData } from './constants';
+import Navigation from './components/nav';
 function App() {
 
 
   return (
     <Container className="py-5 bg-light min-vh-100">
+      <Navigation/>
       <header className="text-center mb-5">
         <h1 className="display-4 fw-bold text-primary">UI Navigation Elements</h1>
         <p className="text-muted">Demo sử dụng Tabs, Accordion và Grid trong React Bootstrap</p>
@@ -78,7 +78,6 @@ function App() {
               
             </Card.Body>
           </Card>
-
         </Col>
       </Row>
     </Container>

@@ -1,93 +1,227 @@
+/* reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
 body {
-  background-color: #f8f9fa;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    background-color: #f8f9fa;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
 }
 
 .py-5 {
-  padding: 3rem 0;
+    padding: 3rem 0;
 }
 
 h1 {
-  color: #333;
-  font-weight: 600;
-  border-bottom: 3px solid #007bff;
-  padding-bottom: 1rem;
+    color: #333;
+    font-weight: 600;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 1rem;
 }
 
 h2 {
-  color: #495057;
-  font-weight: 500;
-  margin-bottom: 1.5rem;
+    color: #495057;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
 }
 
 /* Tabs Styling */
 .nav-tabs {
-  border-bottom: 2px solid #dee2e6;
-  margin-bottom: 1rem;
+    border-bottom: 2px solid #dee2e6;
+    margin-bottom: 1rem;
 }
 
 .nav-tabs .nav-link {
-  color: #6c757d;
-  border: none;
-  border-bottom: 3px solid transparent;
-  font-weight: 500;
-  transition: all 0.3s ease;
+    color: #6c757d;
+    border: none;
+    border-bottom: 3px solid transparent;
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
 
 .nav-tabs .nav-link:hover {
-  color: #007bff;
-  border-bottom-color: #007bff;
+    color: #007bff;
+    border-bottom-color: #007bff;
 }
 
 .nav-tabs .nav-link.active {
-  color: #007bff;
-  border-bottom-color: #007bff;
-  background-color: transparent;
+    color: #007bff;
+    border-bottom-color: #007bff;
+    background-color: transparent;
 }
 
 .tab-content .p-3 {
-  background-color: white;
-  border-radius: 0.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Accordion Styling */
 .accordion {
-  border: 1px solid #dee2e6;
-  border-radius: 0.5rem;
-  overflow: hidden;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 
 .accordion-button {
-  font-weight: 500;
-  color: #333;
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #dee2e6;
+    font-weight: 500;
+    color: #333;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #e7f3ff;
-  color: #007bff;
+    background-color: #e7f3ff;
+    color: #007bff;
 }
 
 .accordion-button:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
 }
 
 .accordion-body {
-  background-color: white;
-  color: #495057;
-  line-height: 1.6;
+    background-color: white;
+    color: #495057;
+    line-height: 1.6;
 }
 
 /* Content sections */
 .mb-4 {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .mb-3 {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+li,
+a {
+    text-decoration: none;
+}
+ol,
+ul {
+    list-style: none;
 }
